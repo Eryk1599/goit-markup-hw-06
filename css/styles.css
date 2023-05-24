@@ -733,7 +733,10 @@ textarea {
 }
 .modal-input:focus-within,
 .modal-input:focus-within + svg,
-.input-comment:focus-within {
+.input-comment:focus-within,
+.modal-input:hover + svg,
+.modal-input:hover,
+.input-comment:hover {
     border-color: var(--active-link-and-button-bg-color);
     fill: var(--active-link-and-button-bg-color);
     outline: none;
