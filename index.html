@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Zadanie-5</title>
+        <title>Zadanie-6</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -95,6 +95,87 @@
                                     ></use>
                                 </svg>
                             </button>
+                            <p>Zostaw swoje dane w formularzu poniżej</p>
+                            <form>
+                                <label>
+                                    <span class="input-title">Imię</span>
+                                    <input
+                                        type="text"
+                                        name="Imie"
+                                        class="modal-input"
+                                    />
+                                    <svg
+                                        class="icon-label"
+                                        width="18px"
+                                        height="18px"
+                                    >
+                                        <use
+                                            href="./images/icons.svg#icon-person-black"
+                                        ></use>
+                                    </svg>
+                                </label>
+                                <label>
+                                    <span class="input-title">Telefon</span>
+                                    <input
+                                        type="tel"
+                                        name="telefon"
+                                        class="modal-input"
+                                    />
+                                    <svg
+                                        class="icon-label"
+                                        width="18px"
+                                        height="18px"
+                                    >
+                                        <use
+                                            href="./images/icons.svg#icon-phone-black"
+                                        ></use>
+                                    </svg>
+                                </label>
+                                <label>
+                                    <span class="input-title">Email</span>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        class="modal-input"
+                                    />
+                                    <svg
+                                        class="icon-label"
+                                        width="18px"
+                                        height="18px"
+                                    >
+                                        <use
+                                            href="./images/icons.svg#icon-email-black"
+                                        ></use>
+                                    </svg>
+                                </label>
+                                <label>
+                                    <span class="input-title">Komentarz</span>
+                                    <textarea
+                                        class="input-comment"
+                                        name="comment"
+                                        placeholder="Wprowadz tekst"
+                                    ></textarea>
+                                </label>
+                                <label class="accept-text">
+                                    <div class="check-box">
+                                        <input type="checkbox" name="accept" />
+                                        <span class="modal-check"> </span>
+                                        <span>
+                                            Oświadczam iż akceptuję
+                                            <a class="modal-accept" href="#"
+                                                >Regulamin</a
+                                            >
+                                            i
+                                            <a class="modal-accept" href="#"
+                                                >Politykę Prywatności.</a
+                                            >
+                                        </span>
+                                    </div>
+                                </label>
+                                <button type="submit" class="submit-modal">
+                                    Wyślij
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -530,7 +611,7 @@
                             ><span class="studio-logo-ft">Studio</span></a
                         >
                         <p class="footer-adress">
-                            Warszawa, Aleje Jerozolimskie 21
+                            m. Warszawa, Aleje Jerozolimskie 21
                         </p>
                         <p class="footer-contact">info@example.com</p>
                         <p class="footer-contact">+48111111111</p>
@@ -582,6 +663,33 @@
                                     ></use>
                                 </svg>
                             </a>
+                            <div class="footer">
+                                <h3 class="newsletter">
+                                    ZAPISZ SIĘ DO NEWSLETTERA
+                                </h3>
+                                <form>
+                                    <label>
+                                        <input
+                                            class="news-label"
+                                            type="email"
+                                            name="email"
+                                            placeholder="E-mail"
+                                        />
+                                    </label>
+                                    <button type="submit" class="zs-button">
+                                        Zapisz się
+                                        <svg
+                                            class="send-icon"
+                                            width="24px"
+                                            height="24px"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-icon-send"
+                                            ></use>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
